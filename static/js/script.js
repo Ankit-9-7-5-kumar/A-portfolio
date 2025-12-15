@@ -1,9 +1,9 @@
 // mobile menu toggle
-const toggle = document.getElementById('mobile-toggle');
-const nav = document.querySelector('.main-nav');
+const toggle = document.getElementById("mobile-toggle");
+const nav = document.querySelector(".main-nav");
 
-toggle && toggle.addEventListener('click', () => {
-  if (!nav) return;
+toggle.addEventListener("click", () => {
+  nav.classList.toggle("open");
   nav.style.display = nav.style.display === 'flex' ? 'none' : 'flex';
   nav.style.flexDirection = 'column';
   nav.style.position = 'absolute';
