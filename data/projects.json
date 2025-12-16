@@ -1,15 +1,9 @@
 [
   {
-    "title": "AI Voice Assistant",
-    "description": "A Python-based intelligent voice assistant with speech recognition, NLP-based intent detection, contextual memory, and system automation.",
-    "github": "https://github.com/Ankit-9-7-5-kumar/ai-voice-assistant",
-    "live": ""
-  },
-  {
     "title": "Flask Portfolio Website",
     "description": "Personal portfolio built using Flask with admin dashboard, contact form, CSV-based message storage, and secure deployment practices.",
     "github": "https://github.com/Ankit-9-7-5-kumar/A-portfolio",
-    "live": ""
+    "live": "https://a-portfolio-qr30.onrender.com"
   },
   {
     "title": "Whether web page",
