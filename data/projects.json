@@ -1,6 +1,6 @@
 [
   {
-    "title": "Flask Portfolio Website",
+    "title": "Portfolio Website",
     "description": "Personal portfolio built using Flask with admin dashboard, contact form, CSV-based message storage, and secure deployment practices.",
     "github": "https://github.com/Ankit-9-7-5-kumar/A-portfolio",
     "live": "https://a-portfolio-qr30.onrender.com"
