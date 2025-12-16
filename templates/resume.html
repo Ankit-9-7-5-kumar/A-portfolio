@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+
+{% block title %}Resume | Ankit Kumar{% endblock %}
+
+{% block content %}
+
+<section class="section">
+  <div class="container resume-page">
+
+    <h1>Resume</h1>
+
+    <!-- DOWNLOAD BUTTON -->
+    <div class="resume-actions">
+      <a href="{{ url_for('static', filename='assets/resume.pdf') }}" 
+         class="btn" 
+         target="_blank">
+        Download Resume (PDF)
+      </a>
+    </div>
+
+    <!-- SUMMARY -->
+    <div class="resume-card">
+      <h2>Professional Summary</h2>
+      <p>
+        Python Developer with strong experience in backend development,
+        automation, and building intelligent applications using Flask,
+        APIs, and NLP. Passionate about clean code, security, and scalable systems.
+      </p>
+    </div>
+
+    <!-- SKILLS -->
+    <div class="resume-card">
+      <h2>Skills</h2>
+      <ul class="resume-list">
+        <li><strong>Languages:</strong> Python, JavaScript</li>
+        <li><strong>Frameworks:</strong> Flask</li>
+        <li><strong>AI / Automation:</strong> NLP, Speech Recognition, Automation</li>
+        <li><strong>Tools:</strong> Git, GitHub, VS Code</li>
+      </ul>
+    </div>
+
+    <!-- PROJECTS -->
+    <div class="resume-card">
+      <h2>Projects</h2>
+      <ul class="resume-list">
+        <li>
+          <strong>AI Voice Assistant</strong> – Python-based assistant with
+          speech recognition, intent classification, contextual memory,
+          and system automation.
+        </li>
+        <li>
+          <strong>Portfolio Website</strong> – Flask-based personal portfolio
+          with admin dashboard, contact form, and secure deployment.
+        </li>
+      </ul>
+    </div>
+
+    <!-- EDUCATION -->
+    <div class="resume-card">
+      <h2>Education</h2>
+      <ul class="resume-list">
+        <li>
+          <strong>B.Tech – Electrical & Electronics Engineering</strong><br>
+          (Relevant focus on programming, systems, and automation)
+        </li>
+      </ul>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="resume-card">
+      <h2>Contact</h2>
+      <ul class="resume-list">
+        <li>Email: ankitkumar106998@gmail.com</li>
+        <li>GitHub: github.com/Ankit-9-7-5-kumar</li>
+        <li>LinkedIn: linkedin.com/in/ankit-kumar</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+{% endblock %}

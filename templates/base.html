@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>{% block title %}Ankit Kumar — Portfolio{% endblock %}</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ankit Kumar — Python Developer & Automation Engineer">
+  <meta name="author" content="Ankit Kumar">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+  {% block head %}{% endblock %}
+</head>
+<body>
+
+  <!-- 🔹 NAVBAR -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="{{ url_for('home') }}" class="brand">
+        Ankit<span class="dot">.</span>
+      </a>
+
+      <nav class="main-nav">
+        <a href="{{ url_for('home') }}#about">About</a>
+        <a href="{{ url_for('home') }}#skills">Skills</a>
+        <a href="{{ url_for('home') }}#projects">Projects</a>
+        <a href="{{ url_for('home') }}#contact">Contact</a>
+        <a href="{{ url_for('resume_page') }}">Resume</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 🔹 FLASH MESSAGES -->
+  {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+      <div class="flash-container">
+        {% for category, message in messages %}
+          <div class="flash {{ category }}">{{ message }}</div>
+        {% endfor %}
+      </div>
+    {% endif %}
+  {% endwith %}
+
+  <!-- 🔹 PAGE CONTENT -->
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+
+  <!-- 🔹 FOOTER -->
+  <footer class="footer">
+    <p>© {{ datetime.utcnow().year }} Ankit Kumar. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

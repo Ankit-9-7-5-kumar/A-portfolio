@@ -1,0 +1,27 @@
+[
+  {
+    "title": "AI Voice Assistant",
+    "description": "A Python-based intelligent voice assistant with speech recognition, NLP-based intent detection, contextual memory, and system automation.",
+    "github": "https://github.com/Ankit-9-7-5-kumar/ai-voice-assistant",
+    "live": ""
+  },
+  {
+    "title": "Flask Portfolio Website",
+    "description": "Personal portfolio built using Flask with admin dashboard, contact form, CSV-based message storage, and secure deployment practices.",
+    "github": "https://github.com/Ankit-9-7-5-kumar/A-portfolio",
+    "live": ""
+  },
+  {
+    "title": "Whether web page",
+    "description": "A responsive whether page built using HTML, CSS, and JavaScript, deployed with GitHub Pages.",
+    "github": "https://github.com/Ankit-9-7-5-kumar/dleta-an",
+    "live": "https://ankit-9-7-5-kumar.github.io/dleta-an/"
+  },
+  {
+    "title": "Notes App",
+    "description": "A full-stack notes application built with node.js and express that allows users to create, edit, and manage notes. Deployed on Render.",
+    "github": "https://github.com/Ankit-9-7-5-kumar/note-backend",
+    "live": "https://note-app-wpmp.onrender.com"
+  }
+
+]
