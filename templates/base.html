@@ -19,21 +19,25 @@
 <body>
 
   <!-- 🔹 NAVBAR -->
-  <header class="nav">
-    <div class="container nav-inner">
-      <a href="{{ url_for('home') }}" class="brand">
-        Ankit<span class="dot">.</span>
-      </a>
+<header class="nav">
+  <div class="container nav-inner">
+    <a href="{{ url_for('home') }}" class="brand">
+      Ankit<span class="dot">.</span>
+    </a>
 
-      <nav class="main-nav">
-        <a href="{{ url_for('home') }}#about">About</a>
-        <a href="{{ url_for('home') }}#skills">Skills</a>
-        <a href="{{ url_for('home') }}#projects">Projects</a>
-        <a href="{{ url_for('home') }}#contact">Contact</a>
-        <a href="{{ url_for('resume_page') }}">Resume</a>
-      </nav>
-    </div>
-  </header>
+    <nav class="main-nav" id="mobileMenu">
+      <a href="{{ url_for('home') }}#about">About</a>
+      <a href="{{ url_for('home') }}#skills">Skills</a>
+      <a href="{{ url_for('home') }}#projects">Projects</a>
+      <a href="{{ url_for('home') }}#contact">Contact</a>
+      <a href="{{ url_for('resume_page') }}">Resume</a>
+    </nav>
+
+    <!-- HAMBURGER -->
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+  </div>
+</header>
+
 
   <!-- 🔹 FLASH MESSAGES -->
   {% with messages = get_flashed_messages(with_categories=true) %}
@@ -55,6 +59,13 @@
   <footer class="footer">
     <p>© {{ datetime.utcnow().year }} Ankit Kumar. All rights reserved.</p>
   </footer>
+
+
+  <script>
+  function toggleMenu() {
+    document.getElementById("mobileMenu").classList.toggle("show");
+  }
+</script>
 
 </body>
 </html>
