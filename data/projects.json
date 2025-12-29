@@ -7,7 +7,7 @@
   },
   {
     "title": "complaint_management_system-CMS",
-    "description": "description": "An online complaint management system where users can register complaints and admins can view, manage, and resolve them through a centralized dashboard.",
+    "description": "description: An online complaint management system where users can register complaints and admins can view, manage, and resolve them through a centralized dashboard.",
     "github": "https://github.com/Ankit-9-7-5-kumar/CMS",
     "live": "https://complaint-system-cms.onrender.com"
   },
