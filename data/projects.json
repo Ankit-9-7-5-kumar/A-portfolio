@@ -1,21 +1,20 @@
 [
   {
+    "title": "Weather web Application",
+    "description": "A responsive weather web application built using HTML, CSS, JavaScript and python that displays real-time weather information for different locations.",
+    "github": "https://github.com/Ankit-9-7-5-kumar/dleta-an",
+    "live": "https://weather-app-dphw.onrender.com"
+  },
+  {
+    "title": "complaint_management_system-CMS",
+    "description": "description": "An online complaint management system where users can register complaints and admins can view, manage, and resolve them through a centralized dashboard.",
+    "github": "https://github.com/Ankit-9-7-5-kumar/CMS",
+    "live": "https://complaint-system-cms.onrender.com"
+  },
+  {
     "title": "Portfolio Website",
     "description": "Personal portfolio built using Flask with admin dashboard, contact form, CSV-based message storage, and secure deployment practices.",
     "github": "https://github.com/Ankit-9-7-5-kumar/A-portfolio",
     "live": "https://a-portfolio-qr30.onrender.com"
-  },
-  {
-    "title": "Whether web page",
-    "description": "A responsive whether page built using HTML, CSS, and JavaScript, deployed with GitHub Pages.",
-    "github": "https://github.com/Ankit-9-7-5-kumar/dleta-an",
-    "live": "https://ankit-9-7-5-kumar.github.io/dleta-an/"
-  },
-  {
-    "title": "Notes App",
-    "description": "A full-stack notes application built with node.js and express that allows users to create, edit, and manage notes. Deployed on Render.",
-    "github": "https://github.com/Ankit-9-7-5-kumar/note-backend",
-    "live": "https://note-app-wpmp.onrender.com"
   }
-
 ]
